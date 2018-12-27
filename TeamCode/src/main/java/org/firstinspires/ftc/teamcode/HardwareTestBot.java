@@ -2,6 +2,7 @@ package org.firstinspires.ftc.teamcode;
 
 import com.qualcomm.robotcore.hardware.DcMotor;
 import com.qualcomm.robotcore.hardware.DcMotorSimple;
+import com.qualcomm.robotcore.hardware.DistanceSensor;
 import com.qualcomm.robotcore.hardware.HardwareMap;
 import com.qualcomm.robotcore.hardware.Servo;
 import com.qualcomm.robotcore.util.ElapsedTime;
@@ -13,7 +14,7 @@ public class HardwareTestBot {
     //Expansion Hub 2
     public DcMotor Hooke, Arm, Rotation, Collection;
     //public Servo Marker, Flicker;
-    //public DistanceSensor SensorRange;
+    public DistanceSensor SensorRange;
 
     HardwareMap hwMap;
     public ElapsedTime period = new ElapsedTime();

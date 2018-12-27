@@ -12,6 +12,7 @@ public class AutonomousTest extends LinearOpMode {
 
     @Override
     public void runOpMode() {
+        robot.init(hardwareMap);
         goldLooker = new GoldLooker(hardwareMap);
         waitForStart();
     }
